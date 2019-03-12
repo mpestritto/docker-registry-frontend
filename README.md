@@ -1,3 +1,16 @@
+# FORK UPDATE
+
+This is a fork of [xgin/docker-registry-frontend](https://github.com/xgin/docker-registry-frontend)
+Docker container would not build because of old google cdn library. Project could survive without it.
+
+Removed from grunt build and rebuilt docker container.
+
+Updated container is published on dockerhub.
+
+https://hub.docker.com/r/mpestritto/docker-registry-frontend
+
+Confirmed that deletes for tags do work. Doesn't work for repo.
+
 # About
 
 The `docker-registry-frontend` is a browser-based solution for browsing and modifying a private Docker registry.
